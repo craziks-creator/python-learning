@@ -41,12 +41,12 @@ else:
         print('3 is not in p')
 
 #dictionary
-d={'name':'Alice','age':25,'city':'New York'}
-name=('Alice')
+d={'name':['Alice','yuvi'],'age':25,'city':'New York'}
 for key,value in sorted(d.items()):
     print(str(key)+":"+ str(value))
-    if value==name:
-          print("hi! "+ str(value) +" your age is: "+ str(d['age']) + " and you live in: " + str(d['city']))
+for name in d['name']:
+    if 'Alice' in name:
+          print("hi! " + name + " your age is: " + str(d['age']) + " and you live in: " + str(d['city']))
 
 print(d['name'])
 print(d['age'])
