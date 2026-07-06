@@ -1,3 +1,4 @@
+
 m='\thello?'
 x= "\n\tjokuja"
 print (m+" "+x.upper())
@@ -44,6 +45,7 @@ else:
 d={'name':['Alice','yuvi'],'age':25,'city':'New York'}
 for key,value in sorted(d.items()):
     print(str(key)+":"+ str(value))
+    
 for name in d['name']:
     if 'Alice' in name:
           print("hi! " + name + " your age is: " + str(d['age']) + " and you live in: " + str(d['city']))
