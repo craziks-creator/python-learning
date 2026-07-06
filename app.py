@@ -64,3 +64,4 @@ print(d)
 d['age']=30
 print(d)    
 print(d.get('age'))
+print(d.get('age', 'not found'))
