@@ -1,4 +1,4 @@
-import this
+
 m='\thello?'
 x= "\n\tjokuja"
 print (m+" "+x.upper())
@@ -33,8 +33,34 @@ for n in p:
     print(n)
 
 #conditional
-if p==3 or p==7:
-        print("\n"+ "here is 3 or 7 found in p:  " + str(n))
 
-if 3 in p:
-        print('\n 3 is in n')
+if 1 in p:
+        print("\n here is 1 found in p:  " + str(p))
+elif 3 in p:
+        print('\n 3 is in p')
+else:
+        print('3 is not in p')
+
+#dictionary
+d={'name':['Alice','yuvi'],'age':25,'city':'New York'}
+for key,value in sorted(d.items()):
+    print(str(key)+":"+ str(value))
+    
+for name in d['name']:
+    if 'Alice' in name:
+          print("hi! " + name + " your age is: " + str(d['age']) + " and you live in: " + str(d['city']))
+
+print(d['name'])
+print(d['age'])
+print(d.keys())
+print(d.values())
+print(d.items())
+print(d)
+print(d.pop('age'))
+print(d)
+print(d.get('name'))
+print(d.get('age'))
+print(d)
+d['age']=30
+print(d)    
+print(d.get('age'))
