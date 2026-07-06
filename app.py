@@ -65,3 +65,16 @@ print(d)
 print(d.get('age'))
 print(d.get('age', 'not found'))
 print(d)
+
+
+#input function
+m= "hi! hope you are happy"
+m +="\n what is your name:"
+name=input(m)
+print("hi! "+ name)
+
+
+#function
+def greet(name):
+      print("hello! " + name)
+greet("akshay")
