@@ -33,8 +33,10 @@ for n in p:
     print(n)
 
 #conditional
-if p==3 or p==7:
-        print("\n"+ "here is 3 or 7 found in p:  " + str(n))
 
-if 3 in p:
-        print('\n 3 is in n')
+if 1 in p:
+        print("\n here is 1 found in p:  " + str(p))
+elif 3 in p:
+        print('\n 3 is in p')
+else:
+        print('3 is not in p')
