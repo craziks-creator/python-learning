@@ -25,4 +25,16 @@ print(q[0])
 c=[v**3 for v in range(2,11,2)]
 print(c)
 #learnt one hour full
-print("just new branch")
+p=range(1,10,2)
+q=[p for p in p]
+print(q)
+
+for n in p:
+    print(n)
+
+#conditional
+if p==3 or p==7:
+        print("\n"+ "here is 3 or 7 found in p:  " + str(n))
+
+if 3 in p:
+        print('\n 3 is in n')
