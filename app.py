@@ -1,4 +1,3 @@
-import this
 m='\thello?'
 x= "\n\tjokuja"
 print (m+" "+x.upper())
@@ -40,3 +39,25 @@ elif 3 in p:
         print('\n 3 is in p')
 else:
         print('3 is not in p')
+
+#dictionary
+d={'name':'Alice','age':25,'city':'New York'}
+name=('Alice')
+for key,value in sorted(d.items()):
+    print(str(key)+":"+ str(value))
+    if value==name:
+          print("hi! "+ str(value) +" your age is: "+ str(d['age']) + " and you live in: " + str(d['city']))
+
+print(d['name'])
+print(d['age'])
+print(d.keys())
+print(d.values())
+print(d.items())
+print(d)
+print(d.pop('age'))
+print(d)
+print(d.get('name'))
+print(d.get('age'))
+print(d)
+d['age']=30
+print(d)    
